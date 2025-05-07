@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f7f9fc, #f0e9fa);
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    background: linear-gradient(to right, #003366, #002243);
+    color: white;
+    padding: 1px;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+  }
+
+  .casa{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1240px;
+    transition: transform 0.5 ease;
+  }
+
+  .casa:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .carrin{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    transition: transform 0.5 ease;
+  }
+  
+  .carrin:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  h1{
+    margin-left: 2px;
+  }
+
+  nav{
+    background-color: #004284;
+    text-align: center;
+  }
+
+  .btn{
+    display: inline-flex;
+    background-color: #004284;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: medium;
+    transition: background-color 0.2s;
+  }
+
+  .btn:hover{
+    background-color: #003366;
+  }
+
+  .T{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .apresentaçao{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .apresentaçao h2{
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .apresentaçao p{
+    text-align: justify;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .modelo{
+    display: block;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(169, 169, 169);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+  }
+
+  .modelo:hover{
+    transform: scale(1.05);
+  }
+
+  .descricao{
+    text-decoration: none;
+    color: #464646;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .preço{
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  .vista{
+    text-decoration: none;
+    color: #464646;
+    font-weight: bold;
+  }
+
+  .parcela{
+    text-decoration: none;
+    color: #464646;
+  }
+
+  .footer {
+    background: linear-gradient(to right, #003366, #002243);
+    color: #ffffff;
+    padding: 40px 0;
+    margin-top: 50px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .footer-about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .footer-contact h3, .footer-social h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .footer-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-contact li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-social .social-links {
+    display: flex;
+    gap: 16px;
+    margin-left: 45px;
+  }
+  
+  .footer-social .social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social .social-links a:hover {
+    color: #38bdf8;
+  }
+  
+  .footer-copyright {
+    margin-top: 40px;
+    text-align: center;
+  }
